@@ -11,6 +11,7 @@ We can frame this as a search problem: our states are people. Our actions are mo
 
 ## The project
 
+This project was created with the help of CS50 AI - Week 0 Program.
 This Python script, degrees.py, is a program that helps find the shortest path between two actors or actresses in terms of their movie collaborations, also known as "Six Degrees of Kevin Bacon." The script uses CSV files containing information about people (actors/actresses), movies, and their collaborations to calculate the degrees of separation between two given individuals.
 
 ## How to Use
