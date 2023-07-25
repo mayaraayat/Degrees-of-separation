@@ -35,7 +35,7 @@ Loading data...
 Data loaded.
 Name: Tom Hanks
 Name: Meryl Streep
-2 degrees of separation.
+1 degree of separation.
 1: Tom Hanks and Meryl Streep starred in The Post
 
 ## Functionality and Structure
