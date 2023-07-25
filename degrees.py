@@ -67,7 +67,8 @@ def main():
     target = person_id_for_name(input("Name: "))
     if target is None:
         sys.exit("Person not found.")
-
+    if source == target:
+        sys.exit('The source and the target are the same person!')
     path = shortest_path(source, target)
 
     if path is None:
@@ -91,7 +92,6 @@ def shortest_path(source, target):
     If no possible path, returns None.
     """
 
-    # TODO
     f = QueueFrontier()
     f.add(source)
     visited = {}
